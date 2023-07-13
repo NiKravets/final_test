@@ -1,3 +1,5 @@
+package models;
+
 import java.util.List;
 
 public abstract class Animals {
@@ -13,7 +15,7 @@ public abstract class Animals {
 
     @Override
     public String toString() {
-        return "Animals{" +
+        return "models.Animals{" +
                 "name='" + name + '\'' +
                 ", commands='" + commands + '\'' +
                 ", birthdate='" + birthdate + '\'' +

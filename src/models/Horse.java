@@ -1,3 +1,5 @@
+package models;
+
 public class Horse extends PackAnimal{
 
     protected String animal_type = "Лошадь";
@@ -8,7 +10,7 @@ public class Horse extends PackAnimal{
 
     @Override
     public String toString() {
-        return "Horse{" +
+        return "models.Horse{" +
                 "animal_type='" + animal_type + '\'' +
                 ", category='" + category + '\'' +
                 ", name='" + name + '\'' +

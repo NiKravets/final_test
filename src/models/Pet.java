@@ -1,3 +1,5 @@
+package models;
+
 public class Pet extends Animals{
     protected String category;
     public  Pet(String name, String commands, String birthdate) {

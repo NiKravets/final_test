@@ -1,14 +1,16 @@
-public class Camel extends  PackAnimal{
+package models;
 
-    protected String animal_type = "Верблюд";
+public class Donkey extends PackAnimal{
 
-    public Camel(String name, String commands, String birthdate) {
+    protected String animal_type = "Осел";
+
+    public Donkey(String name, String commands, String birthdate) {
         super(name, commands, birthdate);
     }
 
     @Override
     public String toString() {
-        return "Camel{" +
+        return "models.Donkey{" +
                 "animal_type='" + animal_type + '\'' +
                 ", category='" + category + '\'' +
                 ", name='" + name + '\'' +
